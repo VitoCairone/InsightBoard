@@ -1,0 +1,110 @@
+Two-Week Project Roadmap (~= 80 Hours)
+
+Phase 1 – Setup & Planning (10 hrs)
+
+	Goal: Foundation ready, tech stack bootstrapped, backlog clear.
+
+	1. Tech stack confirmation + architecture design – 2 hrs
+    done 8-19
+
+	2. Repo setup (monorepo or frontend+backend split, CI basics) – 2 hrs 
+    done 8-19
+
+	3. Docker basics refresher & environment setup – 3 hrs (includes Postgres in Docker)
+
+	4. Next.js + Tailwind project bootstrap – 2 hrs
+
+	5. Backend skeleton (Fastify/Express + TS + Prisma) – 1 hr
+
+Phase 2 – Backend Core (16 hrs)
+
+	Goal: Functional API with DB + minimal endpoints.
+
+	1. Learn/refresh Prisma ORM basics – 2 hrs
+
+	2. Design schema (e.g., “Board”, “Card/Item”, “User”) + implement migrations – 3 hrs
+
+	3. Implement REST/GraphQL endpoints – 4 hrs
+
+	4. Error handling, input validation (zod or joi) – 2 hrs
+
+	5. Unit tests for endpoints (Jest/Vitest) – 3 hrs
+
+	6. Docs (OpenAPI/Swagger auto-gen) – 2 hrs
+
+Phase 3 – Frontend Core (16 hrs)
+
+	Goal: Dashboard UI showing live data from backend.
+
+	1. Learn/refresh Next.js app router + SSR/SSG – 2 hrs
+
+	2. Learn/refresh Tailwind + component patterns – 2 hrs
+
+	3. Basic layout: Nav, Dashboard grid, Item list – 3 hrs
+
+	4. Data fetching (React Query/SWR) from backend – 3 hrs
+
+	5. Create/edit forms (Formik/React Hook Form + validation) – 3 hrs
+
+	6. Testing components (Playwright/Cypress or RTL) – 3 hrs
+
+Phase 4 – Real-Time Collaboration (10 hrs)
+
+	Goal: Live updates for multiple users.
+
+	1. Learn basics of WebSockets / Socket.io – 2 hrs
+
+	2. Implement backend socket events (e.g., “itemUpdated”, “itemAdded”) – 3 hrs
+
+	3. Integrate frontend subscriptions – 3 hrs
+
+	4. Debug + test multi-client sessions – 2 hrs
+
+Phase 5 – AI Integration (12 hrs)
+
+	Goal: Intelligent suggestions inside dashboard.
+
+	1. Learn OpenAI API / LangChain basics – 2 hrs
+
+	2. Backend: AI route wrapper (“/suggestTags”, “/nlpFilter”) – 3 hrs
+
+	3. Frontend integration: natural language filter bar, tag suggester – 4 hrs
+
+	4.Polish UX: loading states, error handling – 3 hrs
+
+Phase 6 – Modern Web Enhancements (8 hrs)
+
+	Goal: Make project “production-ready and shiny.”
+
+	1. PWA setup (offline support + manifest + installability) – 3 hrs
+
+	2. Edge API routes in Next.js (optional, deploy to Vercel) – 2 hrs
+
+	3. Accessibility & performance audit (Lighthouse) – 3 hrs
+
+Phase 7 – DevOps & Deployment (5 hrs)
+
+	Goal: Anyone can clone + run your app easily.
+
+	1. Dockerize backend + frontend (docker-compose) – 2 hrs
+
+	2. Deploy on Vercel (frontend) + Render/Fly.io (backend/DB) – 2 hrs
+
+	3. Write clear README (setup, run, deploy) – 1 hr
+
+Phase 8 – Polish & Showcase (3 hrs)
+
+	Goal: Make it shine for both user and reviwer audiences.
+
+	1. Record a short demo video / GIFs – 1 hr
+
+	2. Clean code review + final commit strategy – 1 hr
+
+	3. Update resume with project line + GitHub link – 1 hr
+
+By the end, should have:
+	Full-stack TypeScript app (Next.js + Fastify + Prisma/Postgres)
+	Real-time collaboration
+	AI-augmented features (tags/filters)
+	Dockerized, deployed, PWA-ready project
+	A professional GitHub repo + demo video

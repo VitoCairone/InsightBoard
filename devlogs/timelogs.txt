@@ -1,0 +1,4 @@
+Tu Aug 19
+  12:15 - 1:12 [57m]
+    * Tech stack confirmation + architecture design (P1-1)
+    * Repo setup (monorepo, CI basics) (P1-2)
