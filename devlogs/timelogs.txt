@@ -2,3 +2,7 @@ Tu Aug 19
   12:15 - 1:12 [57m]
     * Tech stack confirmation + architecture design (P1-1)
     * Repo setup (monorepo, CI basics) (P1-2)
+Fr Aug 29
+  1:14 - 2:00
+    * install/update Docker, Prism, etc. on Windows machine
+    * setup and run prisma api express backend
