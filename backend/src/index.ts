@@ -5,8 +5,12 @@ const prisma = new PrismaClient();
 const PORT = process.env.PORT || 4000;
 
 app.get('/api/hello', async (_req, res) => {
+  res.json({ message: 'Hello from InsightBoard backend!'});
+});
+
+app.get('/api/users', async (_req, res) => {
   const users = await prisma.user.findMany();
-  res.json({ message: 'Hello from InsightBoard backend!', users });
+  res.json({ message: 'Hello from InsightBoard backend Users!', users });
 });
 
 app.listen(PORT, () => {

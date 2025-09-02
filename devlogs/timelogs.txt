@@ -6,3 +6,6 @@ Fr Aug 29
   1:14 - 2:00
     * install/update Docker, Prism, etc. on Windows machine
     * setup and run prisma api express backend
+Tu Sep 2
+  1:00 - 1:52
+    * fix .env for Prisma to connect BE to DB
